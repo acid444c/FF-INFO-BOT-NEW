@@ -243,9 +243,10 @@ class InfoCommands(commands.Cog):
                         f"    **└─ CS Rank**: {'' if captain_info.get('showCsRank') else 'Not found'} {captain_info.get('csRankingPoints', 'Not found')} "
                     ])
                 embed.add_field(name="", value="\n".join(guild_info), inline=False)
+                embed.set_image(url=f" https://profile.thug4ff.com/api/profile_card?uid={uid}")
 
             # profile card শেষে
-            embed.set_image(url=f"https://profile2.thug4ff.com/api/profile_card?uid={uid}")
+            embed.set_image(url=f" https://profile.thug4ff.com/api/profile?uid={uid}")
             embed.set_footer(text="🔗 DEVELOPED BY Unknown")
             await ctx.send(embed=embed)
 

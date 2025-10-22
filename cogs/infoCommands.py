@@ -181,7 +181,7 @@ class InfoCommands(commands.Cog):
             # 🔗 JOIN link উপরে
             embed.add_field(
                 name="",
-                value="🔗 **JOIN : [JOIN NOW](https://discord.gg/xGy9JbQQg8)**",
+                value="🔗 **JOIN : [JOIN NOW](https://discord.gg/MyBqsnzgAf)**",
                 inline=False
             )
 

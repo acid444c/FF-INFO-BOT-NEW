@@ -246,7 +246,7 @@ class InfoCommands(commands.Cog):
                 embed.set_image(url=f"https://i.postimg.cc/pd9jhmLr/standard-2.gif")
 
             # profile card শেষে
-            embed.set_image(url=f"https://i.postimg.cc/pd9jhmLr/standard-2.gif")
+            embed.set_image(url=f"https://i.postimg.cc/3N63ZtKg/standard-5.gif")
             embed.set_footer(text="🔗 DEVELOPED BY Unknown")
             await ctx.send(embed=embed)
 
